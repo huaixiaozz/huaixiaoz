@@ -66,8 +66,6 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="fb-comments" data-href="http://echo.huaixiaoz.com" data-numposts="5" data-colorscheme="light"></div>
-
 <div class="fb-like" data-href="http://echo.huaixiaoz.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="huaixiaoz" data-related="huaixiaoz" data-hashtags="huaixiaoz">Tweet</a>
