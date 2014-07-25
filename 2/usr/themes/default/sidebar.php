@@ -53,9 +53,27 @@
             <?php endif; ?>
             <li><a href="<?php $this->options->feedUrl(); ?>"><?php _e('文章 RSS'); ?></a></li>
             <li><a href="<?php $this->options->commentsFeedUrl(); ?>"><?php _e('评论 RSS'); ?></a></li>
-            <li><a href="http://www.typecho.org">Typecho</a></li>
         </ul>
 	</section>
     <?php endif; ?>
+    
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments" data-href="http://echo.huaixiaoz.com" data-numposts="5" data-colorscheme="light"></div>
+
+<div class="fb-like" data-href="http://echo.huaixiaoz.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="huaixiaoz" data-related="huaixiaoz" data-hashtags="huaixiaoz">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<a href="https://twitter.com/huaixiaoz" class="twitter-follow-button" data-show-count="false" data-lang="zh-cn" data-size="large">关注 @huaixiaoz</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 </div><!-- end #sidebar -->
