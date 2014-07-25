@@ -67,7 +67,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="fb-like" data-href="http://echo.huaixiaoz.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-
+<p>
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="huaixiaoz" data-related="huaixiaoz" data-hashtags="huaixiaoz">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
