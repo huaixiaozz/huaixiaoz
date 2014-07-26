@@ -57,6 +57,10 @@
 	</section>
     <?php endif; ?>
 
+<?php $this->widget('Widget_Metas_Tag_Cloud', 'ignoreZeroCount=1&limit=30')->to($tags); ?>
+<?php while($tags->next()): ?>
+<span><a style="color:rgb(<?php echo(rand(0,255)); ?>,<?php echo(rand(0,255)); ?>,<?php echo(rand(0,255)); ?>)" href="<?php $tags->permalink(); ?>" title='<?php $tags->name(); ?>'><?php $tags->name(); ?></a></span>
+
 <wb:follow-button uid="1899362755" type="red_1" width="67" height="24" ></wb:follow-button>
 <p>
 <div id="fb-root"></div>
