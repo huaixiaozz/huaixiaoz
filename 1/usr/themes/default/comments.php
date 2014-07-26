@@ -16,6 +16,6 @@
     </script>
 <!-- Duoshuo Comment END -->
 <?php else: ?>
-<h4><?php _e("评论已关闭"); ?></h4> 
+<h4><?php _e(""); ?></h4> 
 <?php endif; ?> 
 </div>
