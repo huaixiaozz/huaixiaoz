@@ -1,3 +1,6 @@
+<html xmlns:wb="http://open.weibo.com/wb">
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+
 <div class="col-mb-12 col-offset-1 col-3 kit-hidden-tb" id="secondary" role="complementary">
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowRecentPosts', $this->options->sidebarBlock)): ?>
     <section class="widget">
@@ -74,4 +77,5 @@
 <a href="https://twitter.com/huaixiaoz" class="twitter-follow-button" data-show-count="false" data-lang="zh-cn" data-size="large">关注 @huaixiaoz</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
+<wb:follow-button uid="1899362755" type="red_1" width="67" height="24" ></wb:follow-button>
 </div><!-- end #sidebar -->
