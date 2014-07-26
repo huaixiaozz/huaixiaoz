@@ -62,7 +62,11 @@ $db = new Typecho_Db('Mysql', 'type_');
 }
 else if($_SERVER["HTTP_HOST"]=="list.huaixiaoz.com")
 {
-$db = new Typecho_Db('Mysql', 'echo_');
+$db = new Typecho_Db('Mysql', 'list_');
+}
+else if($_SERVER["HTTP_HOST"]=="c.huaixiaoz.com")
+{
+$db = new Typecho_Db('Mysql', 'c_');
 }
 $db->addServer(array (
     'host'      =>  SAE_MYSQL_HOST_M,
