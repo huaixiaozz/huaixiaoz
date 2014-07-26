@@ -52,12 +52,7 @@ require_once 'Typecho/Router.php';
 Typecho_Common::init();
 
 /** 定义数据库参数 */
-if($_SERVER["HTTP_HOST"]=="i.huaixiaoz.com"){
-    $b = new Typecho_Db('Mysql', 'typecho_');
-}
-else if($_SERVER["HTTP_HOST"]=="u.huaixiaoz.com"){
-    $db = new Typecho_Db('Mysql', 'type_');
-}
+$db = new Typecho_Db('Mysql', 'typecho_');
 $db->addServer(array (
     'host'      =>  SAE_MYSQL_HOST_M,
     'user'      =>  SAE_MYSQL_USER,
